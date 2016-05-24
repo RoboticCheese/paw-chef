@@ -19,9 +19,15 @@
 #
 
 if defined?(ChefSpec)
-  ChefSpec.define_matcher(:paw)
+  {
+    paw: %i(install upgrade)
+  }.each do |matcher, actions|
+    ChefSpec.define_matcher(matcher)
 
-  def install_paw(name)
-    ChefSpec::Matchers::ResourceMatcher.new(:paw, :install, name)
+    actions.each do |action|
+      define_method("#{action}_#{matcher}") do |name|
+        ChefSpec::Matchers::ResourceMatcher.new(matcher, action, name)
+      end
+    end
   end
 end
