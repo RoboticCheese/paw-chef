@@ -1,14 +1,14 @@
 Paw Cookbook
 ============
 [![Cookbook Version](https://img.shields.io/cookbook/v/paw.svg)][cookbook]
-[![Build Status](https://img.shields.io/travis/roboticcheese/paw-chef.svg)][travis]
-[![Code Climate](https://img.shields.io/codeclimate/github/roboticcheese/paw-chef.svg)][codeclimate]
-[![Coverage Status](https://img.shields.io/coveralls/roboticcheese/paw-chef.svg)][coveralls]
+[![Build Status](https://img.shields.io/travis/RoboticCheese/paw-chef.svg)][travis]
+[![Code Climate](https://img.shields.io/codeclimate/github/RoboticCheese/paw-chef.svg)][codeclimate]
+[![Coverage Status](https://img.shields.io/coveralls/RoboticCheese/paw-chef.svg)][coveralls]
 
 [cookbook]: https://supermarket.chef.io/cookbooks/paw
-[travis]: https://travis-ci.org/roboticcheese/paw-chef
-[codeclimate]: https://codeclimate.com/github/roboticcheese/paw-chef
-[coveralls]: https://coveralls.io/r/roboticcheese/paw-chef
+[travis]: https://travis-ci.org/RoboticCheese/paw-chef
+[codeclimate]: https://codeclimate.com/github/RoboticCheese/paw-chef
+[coveralls]: https://coveralls.io/r/RoboticCheese/paw-chef
 
 A Chef cookbook to install the Paw app.
 

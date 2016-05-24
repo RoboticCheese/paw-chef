@@ -35,7 +35,6 @@ class Chef
           include_recipe 'mac-app-store' unless a == :nothing
 
           mac_app_store_app 'Paw (HTTP & REST Client)' do
-            bundle_id 'com.luckymarmot.Paw'
             action a
           end
         end
