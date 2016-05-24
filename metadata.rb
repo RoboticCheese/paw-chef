@@ -6,7 +6,7 @@ maintainer_email 'j@p4nt5.com'
 license 'apache2'
 description 'Installs Paw'
 long_description 'Installs Paw'
-version '0.1.1'
+version '0.2.0'
 
 source_url 'https://github.com/roboticcheese/paw-chef'
 issues_url 'https://github.com/roboticcheese/paw-chef/issues'
